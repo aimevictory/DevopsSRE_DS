@@ -4,8 +4,8 @@ on: [push]
 
 env:
   APPLICATION_NAME: CalculatorAPP
-  REGISTRY: ghcr.io
-  IMAGE_NAME: aimevictory/devops-labs-calculator-app
+  REGISTRY: ghcr.io/aimevictory
+  IMAGE_NAME: calculator-app
 
 jobs:
   DockerBuildPublish:
